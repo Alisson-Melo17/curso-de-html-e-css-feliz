@@ -16,7 +16,7 @@ nav a{
     align-items: center;
     color: #fff;
     font-size: 20px;
-    font-family: 'Fira Code';
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
     font-weight: 500;
     /* Não precisa escrver porque já é o padrão,
     mas eu vou escrever para 
@@ -24,14 +24,6 @@ nav a{
     font-style: normal;
     text-decoration: none;
     margin-right: 30px;
-}
-
-header h1{
-    margin: 0;
-    font-family: 'Fira Code';
-    font-size: 24px;
-    font-weight: 500;
-    color: #fff;
 }
 
 a::before{
@@ -49,9 +41,9 @@ a::before{
     box-shadow: 5px 5px 0 #000;
     /*Para tirar a margin definida no A*/
     margin-right: 0;
-    transition: transform 200ms;
+    transition: transform 100ms linear;
 }
 
 .button:hover{
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
