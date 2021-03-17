@@ -1,0 +1,15 @@
+.button{
+    display: inline-block;
+    background-color: #f25a70;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 #000;
+    /*Para tirar a margin definida no A*/
+    margin-right: 0;
+    transition: transform 100ms linear;
+    font-size: 20px;
+    color: #fff;
+}
+
+.button:hover{
+    transform: scale(1.08);
+}
