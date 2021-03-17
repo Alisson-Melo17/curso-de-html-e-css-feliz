@@ -1,3 +1,17 @@
+body, button{
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+}
+
 body, h1, h2, h3{
     margin: 0;
+}
+
+button{
+    border: none;
+    /*Para herdar do body. Caso um dia eu mude a font eu não preciso mudar em dois lugares*/
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none   ;
 }
