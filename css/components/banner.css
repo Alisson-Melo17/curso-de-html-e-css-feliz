@@ -1,0 +1,29 @@
+.banner{
+    background-image: url(../../assets/img/photo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+/*
+    Essa estilização é para que possa reaproveitar os components, colocando aqui eu não
+    preciso me preoculpar com estilizações na hora de reaproveitar os components
+*/
+
+.banner .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.banner .box{
+    margin-bottom: 40px;
+}
+
+.banner .navigation{
+    display: flex;
+    justify-content: space-around;
+}

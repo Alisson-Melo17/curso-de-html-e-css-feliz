@@ -6,6 +6,10 @@ body, h1, h2, h3{
     margin: 0;
 }
 
+section{
+    box-sizing: border-box;
+}
+
 button{
     border: none;
     /*Para herdar do body. Caso um dia eu mude a font eu não preciso mudar em dois lugares*/
