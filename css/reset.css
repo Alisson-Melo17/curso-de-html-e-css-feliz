@@ -6,7 +6,7 @@ body, h1, h2, h3{
     margin: 0;
 }
 
-section{
+section, article, figure{
     box-sizing: border-box;
 }
 
