@@ -1,11 +1,8 @@
-div.box{
+.main-box{
     display: inline-block;
     padding: 42px 44px;
     text-align: center;
     background-color:#3A4042;
     box-shadow: 10px 10px 0 #000;
-}
-
-.box .title{
     margin-bottom: 28px;
 }

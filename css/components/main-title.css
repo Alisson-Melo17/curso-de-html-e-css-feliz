@@ -5,6 +5,10 @@
     text-shadow: 4px 4px 0 #000;
 }
 
+.main-title._space-bottom {
+    margin-bottom: 30px;
+}
+
 /* 
 Eu estou procurando o elemento gtml que tem a class title e ao mesmo tempo a 
 a class _second
