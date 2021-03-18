@@ -8,6 +8,10 @@
     margin-bottom: 60px;
 }
 
-.section._projetos{
+.section._bgBlack{
     background-color: #000;
+}
+
+.section.bdFirst{
+    border-color: #f25a70;
 }
