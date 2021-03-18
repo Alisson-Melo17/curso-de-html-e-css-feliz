@@ -1,14 +1,9 @@
 
 /* Section do Skill */
 
-section.skills{
-    padding: 50px 0 100px;
-    background-color: #f25a70;
-    text-align: center;
-    border-bottom: 10px solid #7c5e99;
-}
 
-div.list-skill{
+
+.list-skill{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -18,7 +13,7 @@ div.list-skill{
     margin: 0 auto;
 }
 
-section.skills div.skill-item{
+.skill-item{
     display: flex;
     width: 430px;
     height: 90px;
