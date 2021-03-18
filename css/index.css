@@ -8,13 +8,6 @@ section.skills{
     border-bottom: 10px solid #7c5e99;
 }
 
-section h2{
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 40px;
-    color: #fff;
-    margin-bottom: 60px;
-}
-
 div.list-skill{
     display: flex;
     flex-wrap: wrap;
