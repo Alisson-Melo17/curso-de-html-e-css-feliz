@@ -1,4 +1,4 @@
-.title {
+.main-title {
     font-family: "Press Start 2P", sans-serif;
     font-size: 40px;
     color: #f25a70;
@@ -12,7 +12,7 @@ a class _second
 A ideia de colocar um "_" é para quando você colocar o olho nessa class você saber
 que essa class é uma variação do componnet
 */
-.title._second{
+.main-title._second{
     color: #fff;
     text-shadow: none;
     text-align: center;
