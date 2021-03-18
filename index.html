@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/banner.css">
     <link rel="stylesheet" href="css/components/section.css">
-    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
 </head>
 <body>
     <header class="header">
@@ -35,7 +37,7 @@
     <section class="banner">
         <div class="wrapper">
             <div class="box">
-                <h1 class="title">Marco Bruno</h1>
+                <h1 class="main-title">Marco Bruno</h1>
                 <h2 class="subtitle">FrontEnd Developer</h2>
             </div>
 
@@ -48,8 +50,18 @@
     
     <!-- DESAFIO DO  MODULO 2 -->
     <section class="section">
-        <h2 class="title _second">Skills</h2>
-        
+        <h2 class="main-title _second">Skills</h2>
+
+
+        <article class="skill-tec"> <!-- Description List -->
+            <img class="icon" src="assets/img/ico_html5.png" alt="Logo do HTML em pixel art"> 
+            <div class="right">
+                <h3 class="title">HTML</h3><!-- Description title -->
+                <progress class="progress-bar" max="100" value="70">70%</progress>
+            </div>
+        </article>
+
+        <!--       
         <div class="list-skill">
 
             <div class="skill-item">
@@ -65,7 +77,7 @@
             </div>
 
             <div class="skill-item">
-                <img src="./assets/img/ico_html5.png" alt="Logo do HTML em pixel art">
+                <img src="./assets/img/ico_css3.png" alt="Logo do HTML em pixel art">
                 <div class="skill-process">
                     <h3>HTML</h3>
                     <div class="bar-process">
@@ -77,7 +89,7 @@
             </div>
 
             <div class="skill-item">
-                <img src="./assets/img/ico_html5.png" alt="Logo do HTML em pixel art">
+                <img src="./assets/img/ico_js.png" alt="Logo do HTML em pixel art">
                 <div class="skill-process">
                     <h3>HTML</h3>
                     <div class="bar-process">
@@ -89,7 +101,7 @@
             </div>
 
             <div class="skill-item">
-                <img src="./assets/img/ico_html5.png" alt="Logo do HTML em pixel art">
+                <img src="./assets/img/ico_react.png" alt="Logo do HTML em pixel art">
                 <div class="skill-process">
                     <h3>HTML</h3>
                     <div class="bar-process">
@@ -101,7 +113,7 @@
             </div>
 
             <div class="skill-item">
-                <img src="./assets/img/ico_html5.png" alt="Logo do HTML em pixel art">
+                <img src="./assets/img/ico_nodejs.png" alt="Logo do HTML em pixel art">
                 <div class="skill-process">
                     <h3>HTML</h3>
                     <div class="bar-process">
@@ -113,7 +125,31 @@
             </div>
 
             <div class="skill-item">
-                <img src="./assets/img/ico_html5.png" alt="Logo do HTML em pixel art">
+                <img src="./assets/img/ico_tdd.png" alt="Logo do HTML em pixel art">
+                <div class="skill-process">
+                    <h3>HTML</h3>
+                    <div class="bar-process">
+                        <svg width="310" height="30">
+                            <rect width="155" height="30">
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <img src="./assets/img/ico_restapi.png" alt="Logo do HTML em pixel art">
+                <div class="skill-process">
+                    <h3>HTML</h3>
+                    <div class="bar-process">
+                        <svg width="310" height="30">
+                            <rect width="155" height="30">
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <img src="./assets/img/ico_ux.png" alt="Logo do HTML em pixel art">
                 <div class="skill-process">
                     <h3>HTML</h3>
                     <div class="bar-process">
@@ -124,6 +160,7 @@
                 </div>
             </div>
         </div>
+        --> 
     </section>
 </body>
 </html>
