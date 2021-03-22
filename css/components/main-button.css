@@ -8,6 +8,7 @@
     transition: transform 100ms linear;
     font-size: 20px;
     color: #fff;
+    border: none;
 }
 
 .main-button:hover{
