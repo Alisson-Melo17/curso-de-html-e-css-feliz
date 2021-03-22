@@ -13,3 +13,8 @@
 .main-button:hover{
     transform: scale(1.08);
 }
+
+.main-button._full:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
