@@ -1,0 +1,16 @@
+.timeline-item{
+    margin-right: 50px;
+    position: relative; 
+}
+
+.timeline-item::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%);
+    display: block;
+    width: 0px;
+    height: 40px;
+    border: 4px dashed #000000;
+}

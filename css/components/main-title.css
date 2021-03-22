@@ -22,3 +22,9 @@ que essa class é uma variação do componnet
     text-align: center;
     margin-bottom: 60px;
 }
+
+.main-title._timeline {
+    text-shadow: none;
+    font-size: 25px;
+    text-align: center;
+}

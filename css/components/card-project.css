@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
     width: 280px;
     height: 280px;
     background-color: #7C5E99;
@@ -11,4 +12,4 @@
 .card-project._blue{
     padding: 13px 18px;
     background-color: #4C5B84;
-}
+} 
