@@ -12,6 +12,14 @@
     background-color: #000;
 }
 
+.main-section._bgSecond{
+    background-color: #7c5e99;
+}
+
 .main-section.bdFirst{
     border-color: #f25a70;
+}
+
+.main-section._bdBlack{
+    border-color:#000;
 }
