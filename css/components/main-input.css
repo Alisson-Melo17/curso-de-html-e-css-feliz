@@ -7,4 +7,9 @@
     height: 50px;
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+.main-input._textarea{
+    height: 320px;
 }
